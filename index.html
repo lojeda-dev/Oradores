@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8" />
+  <meta name="author" content="Leonel Ojeda">
+  <meta name="description" content="Desarrollo integrador Codo a Codo">
+  <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Titulo-->
+  <title>Conf | Bs As</title>
+  <!--Favicon-->
+  <link rel="icon" href="img/codoacodo.png">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="img/codoacodo.png" width="100" alt="Imagen Codo a Codo" />
+            Conf Bs As
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link verde" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="card text-bg-dark">
+    <img src="img/hawaii3.jpg" class="card-img" alt="Imagen presentacion" />
+    <div class="container card-img-overlay d-flex justify-content-center align-items-end flex-column">
+      <h1 class="card-title">Conf Bs As</h1>
+      <p class="card-text">
+        <strong>Bs As llega por primera vez a Argentina. Un evento para compartir
+          con
+          <br />
+          nuestra comunidad el conocimiento y experiencia de los expertos que
+          <br />
+          están creando el futuro de Internet. Ven a conocer a miembros del
+          <br />
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          <br />
+          nivel que tenemos para ti. Te esperamos!</strong>
+      </p>
+      <div class="botones">
+        <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">
+          <strong>Quiero ser orador</strong>
+        </button>
+        <button type="button" class="btn btn-success">
+          <strong>Comprar tickets</strong>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
