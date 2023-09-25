@@ -1,0 +1,21 @@
+/*Barra de navegacion*/
+.navbar{
+    padding: .2rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.verde{
+    color: green;
+}
+
+/*Responsive*/
+@media screen and (max-width: 991px){
+    .navbar-brand{
+        display: none;
+    }
+    .card{
+        font-size: 60%;
+    }
+}
