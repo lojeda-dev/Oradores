@@ -10,6 +10,24 @@
     color: green;
 }
 
+/*Section Oradores*/
+.oradores{
+    margin-top: 10px;
+}
+
+.javascript{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.react{
+    background-color: #12D5D5;
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+}
+
 /*Responsive*/
 @media screen and (max-width: 991px){
     .navbar-brand{
