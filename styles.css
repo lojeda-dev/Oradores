@@ -1,39 +1,96 @@
 /*Barra de navegacion*/
-.navbar{
+.navbar {
     padding: .2rem;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
-.verde{
+
+.verde {
     color: green;
 }
 
+.btnverde,
+.btninput {
+    background-color: rgb(14, 163, 14);
+}
+
 /*Section Oradores*/
-.oradores{
+.oradores {
     margin-top: 10px;
 }
 
-.javascript{
+.javascript {
     background-color: yellow;
     border-radius: 5px;
     padding: 1px;
 }
 
-.react{
+.react {
     background-color: #12D5D5;
     border-radius: 5px;
     padding: 1px;
     color: white;
 }
 
+.negocios {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+}
+
+.startup {
+    background-color: red;
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+.parrafoTextarea {
+    font-size: 12px;
+    color: gray;
+}
+
+.btninput {
+    color: white;
+}
+
+/* Footer */
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    margin-top: 25px;
+    height: 75px;
+}
+
+.ul-footer{
+    padding-top: 10px;
+}
+
 /*Responsive*/
-@media screen and (max-width: 991px){
-    .navbar-brand{
+@media screen and (max-width: 991px) {
+    .navbar-brand {
         display: none;
     }
-    .card{
+
+    .card {
         font-size: 60%;
     }
 }
