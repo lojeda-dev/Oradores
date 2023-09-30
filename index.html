@@ -68,7 +68,7 @@
         <img src="img/hawaii3.jpg" class="d-block w-100 opacidad" alt="Buenos Aires 3">
       </div>
     </div>
-    <div class="position-absolute text-end col-md-6 col-12 text-light px-5">
+    <div class="position-absolute text-end col-md-6 col-12 text-light px-5 carrousel">
       <div class="d-none d-md-block pt-5 mt-5">
         <h1>
           <strong>Conf Bs As</strong>
@@ -108,7 +108,7 @@
     <h6>Conoce a los</h6>
     <h2>ORADORES</h2>
   </section>
-  <main class="container d-flex justify-content-center align-items-center" style="margin-bottom: 35px;">
+  <main class="container d-flex justify-content-center align-items-center main-oradores" style="margin-bottom: 35px;">
     <div class="card" style="width: 19.6rem">
       <img src="img/steve.jpg" class="card-img-top" alt="Fotografia de Stevie Jobs" />
       <div class="card-body">
@@ -154,7 +154,7 @@
   </main>
   <!--Lugar y fecha-->
   <section class="d-flex justify-content-center bg-dark mb-3" id="lugarfecha">
-    <div class="row">
+    <div class="row lugar">
       <div class="col">
         <img style="
               
@@ -162,7 +162,7 @@
               height: auto;
             " src="img/honolulu.jpg" alt="Foto de Honolulu" />
       </div>
-      <div class="col" style="padding-top: 15px;">
+      <div class="col items-lugar" style="padding-top: 15px;">
         <h3 style="color: white;">Bs As - Octubre</h3>
         <p style="color: white;">
           Buenos Aires es la provincia y localidad más grande del estado de
@@ -186,15 +186,15 @@
     <h2>ORADOR</h2>
     <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-3">
+      <div class="row justify-content-center form">
+        <div class="col-3 form-input">
           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
         </div>
-        <div class="col-3">
+        <div class="col-3 form-input">
           <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
         </div>
         <div class="row justify-content-center" style="margin-top: 15px;">
-          <div class="col-6">
+          <div class="col-6 form-input-textarea">
             <textarea class="form-control" placeholder="Sobre qué quieres hablar?"></textarea>
           </div>
         </div>
@@ -204,7 +204,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6">
+          <div class="col-6 form-input">
             <button type="button" class="btn btn-success" style="width: 100%;">Enviar</button>
           </div>
         </div>
@@ -213,8 +213,7 @@
   </section>
   <!--Pie de pagina-->
   <footer class="container-fluid bg-dark">
-    <div class="container">
-      <ul class="container d-flex justify-content-evenly align-items-center ul-footer">
+      <ul class="container-fluid d-flex justify-content-evenly align-items-center ul-footer">
         <li class="li-footer"><a class="a-footer" href="#">Preguntas<br>frecuentes</a></li>
         <li class="li-footer"><a class="a-footer" href="#">Contáctanos</a></li>
         <li class="li-footer"><a class="a-footer" href="#">Prensa</a></li>
@@ -222,7 +221,6 @@
         <li class="li-footer"><a class="a-footer" href="#">Términos y<br>condiciones</a></li>
         <li class="li-footer"><a class="a-footer" href="#">Estudiantes</a></li>
       </ul>
-    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

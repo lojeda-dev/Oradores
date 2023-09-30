@@ -70,6 +70,11 @@ textarea {
     list-style: none;
 }
 
+.li-footer:hover{
+    text-decoration-line: underline;
+    text-decoration-color:white ;
+}
+
 .a-footer{
     text-decoration: none;
     color: white;
@@ -93,4 +98,43 @@ footer{
     .card {
         font-size: 60%;
     }
+
+    .main-oradores{
+        flex-wrap: wrap;
+    }
+
+    .form-input{
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .form{
+        flex-wrap: wrap;
+    }
+
+    .form-input-textarea{
+        width: 77%;
+    }
+
+    .form-control, .parrafoTextarea{
+        text-align: center;
+    }
+
+    .ul-footer{
+       justify-content: space-between;
+    }
+
+    .lugar{
+        display: block;
+    }
+    .items-lugar{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
 }
+/* @media screen and (max-width: 824px){
+    .carrousel{
+        background-color: #12D5D5;
+    }
+} */
